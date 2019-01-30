@@ -1,0 +1,85 @@
+#include <iostream>
+using namespace std;
+
+class MarcusFraction {
+public:
+	// Default constructor, initializes the class
+	MarcusFraction() { 
+		iNum = 0;
+		iDenom = 1;		
+	}
+	// Copy constructor, copies data from one class to another
+	// Uses reference variable "frOld" with the keyword "const" to remain unchanged
+	MarcusFraction(const MarcusFraction & frOld) { 
+		iNum = frOld.iNum;
+		iDenom = frOld.iDenom;
+	}
+	// A convert constructor, receives an argument
+	MarcusFraction(int iOld) {
+		iNum = iOld;
+		if (iOld) {
+			iDenom = iOld;
+		} else {
+			iDenom = 1;
+		}
+	}
+	~MarcusFraction() {
+		cout << "Goodbye, world!" << endl;
+	}
+	int getNum() {
+		return iNum;
+	}
+	void setNum(int arg) {
+		iNum = arg;
+		return;
+	}
+	int getDenom() {
+		return iDenom;
+	}
+	void setDenom(int arg) {
+		if (arg) {
+			iDenom = arg;
+		} else {
+			iDenom = 1;
+		}
+		return;
+	}
+
+private:
+	int iNum;
+	int iDenom;
+};
+
+void main() {
+	MarcusFraction frA;
+	int num;
+	int denom;
+
+	cout << "The Numerator for frA is: " << frA.getNum() << endl;
+	cout << "The Denominator frA is: " << frA.getDenom() << endl << endl;
+	
+	cout << "Enter a new numerator: ";
+	cin >> num;
+
+	cout << "Enter a new denominator: ";
+	cin >> denom;	
+
+	frA.setNum(num);
+	frA.setDenom(denom);
+
+	cout << "\nThe new Numerator for frA is: " << frA.getNum() << endl;
+	cout << "The new Denominator frA is: " << frA.getDenom() << endl << endl;
+
+	MarcusFraction frB(frA);
+
+	cout << "The Numerator for frB is: " << frB.getNum() << endl;
+	cout << "The Denominator frB is: " << frB.getDenom() << endl << endl;
+
+	MarcusFraction frC(6);
+
+	cout << "The Numerator for frC is: " << frC.getNum() << endl;
+	cout << "The Denominator frC is: " << frC.getDenom() << endl;
+
+
+	return;
+}
