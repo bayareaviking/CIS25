@@ -1,0 +1,10 @@
+void assignmentInfoMarcusLarsson( int, int, int, int );
+
+
+
+void assignmentInfoMarcusLarsson( int arg1, int arg2, int arg3, int arg4 ) {
+
+	printf( "\nCIS 26 - C Programming\nLaney College\nMarcus Larsson\n\nAssignment Information --\n  Assignment Number:   Lab 0%d, Coding Assignment -- Exercise #%d\n  Written by:          Marcus Larsson\n  Submitted Date:      0%d/%d/2011\n\n", arg1, arg2, arg3, arg4 );
+
+	return;
+}
