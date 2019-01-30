@@ -1,0 +1,17 @@
+﻿Build started 11/8/2011 7:51:22 PM.
+     1>Project "C:\Users\Marcus\Documents\My Dropbox\Documents\School\CIS 25\In-Class\inClassLaptop\inClassLaptop\inClassLaptop.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\inClassLaptop.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt cisCircle.cpp
+         cisCircle.cpp
+     1>c:\users\marcus\documents\my dropbox\documents\school\cis 25\in-class\inclasslaptop\inclasslaptop\ciscircle.cpp(15): error C2059: syntax error : 'return'
+     1>c:\users\marcus\documents\my dropbox\documents\school\cis 25\in-class\inclasslaptop\inclasslaptop\ciscircle.cpp(16): error C2059: syntax error : '}'
+     1>c:\users\marcus\documents\my dropbox\documents\school\cis 25\in-class\inclasslaptop\inclasslaptop\ciscircle.cpp(16): error C2143: syntax error : missing ';' before '}'
+     1>c:\users\marcus\documents\my dropbox\documents\school\cis 25\in-class\inclasslaptop\inclasslaptop\ciscircle.cpp(16): error C2059: syntax error : '}'
+     1>cl : Command line warning D9028: minimal rebuild failure, reverting to normal build
+     1>Done Building Project "C:\Users\Marcus\Documents\My Dropbox\Documents\School\CIS 25\In-Class\inClassLaptop\inClassLaptop\inClassLaptop.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.56

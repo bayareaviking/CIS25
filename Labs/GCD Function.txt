@@ -1,0 +1,16 @@
+// Finding GCD using Euclid's algorithm
+int GCD(int arg1, int arg2) {
+  int x;
+  int y;
+  int z;
+
+  x = arg1;
+  y = arg2;
+
+  while ( y != 0 ) {
+    z = x % y;
+    x = y;
+    y = z;
+  }
+  return x;
+}

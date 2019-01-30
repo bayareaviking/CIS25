@@ -1,0 +1,20 @@
+﻿Build started 12/13/2011 6:52:51 PM.
+     1>Project "C:\Users\Marcus\Documents\My Dropbox\Documents\School\CIS 25\Homework\Lab08\Lab07\Lab07.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Lab08.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+       Manifest:
+         All outputs are up-to-date.
+       FinalizeBuildStatus:
+         Deleting file "Debug\Lab08.unsuccessfulbuild".
+         Touching "Debug\Lab08.lastbuildstate".
+     1>Done Building Project "C:\Users\Marcus\Documents\My Dropbox\Documents\School\CIS 25\Homework\Lab08\Lab07\Lab07.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.12
